@@ -1,0 +1,27 @@
+.v-application {
+    font-family: "Work Sans", sans-serif !important;
+}
+
+.v-toolbar__content {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+.main {
+    margin-top: 170px !important;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+@media (max-width: 700px) {
+    .v-toolbar__content,
+    .main {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+}
+
+#videoInternal > canvas {
+    margin-left: -450px;
+    position: absolute !important;
+}
